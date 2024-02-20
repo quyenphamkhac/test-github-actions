@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - master
       - '!feature/*'    # like branches-ignore: feature/*
     # branches-ignore:
     #   - feature/*     # feature/add-music, feature/update-iamge
