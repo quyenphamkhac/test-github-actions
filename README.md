@@ -6,3 +6,5 @@ We will be learning GitHub Actions
 - added random text
 
 Some random text 
+
+We made some changes in README file
