@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
       - master
       - '!feature/*'    # like branches-ignore: feature/*
     # branches-ignore:
@@ -17,7 +16,7 @@ on:
     paths-ignore:
       - README.md
     branches:
-      - main
+      - master
 
 jobs:
   hello:
